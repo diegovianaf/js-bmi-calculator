@@ -23,8 +23,7 @@ main {
   max-width: 40rem;
   padding: 2rem;
   margin: 2rem;
-  background: #218bff;
-  align-items: center;
+  background: #68c8f5;
   border-radius: 1rem;
   box-shadow: 0 0 .5rem #000;
 }
@@ -41,12 +40,12 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
-  width: calc(100% - 1rem);
+  padding: 1rem 0;
+  max-width: 28rem;
 }
 
 .input label {
-  font: bold 2.2rem sans-serif;
+  font: bold 2rem sans-serif;
 }
 
 .input input {
@@ -59,6 +58,10 @@ main {
   text-align: center;
 }
 
+#height, #weight {
+  width: 12rem;
+}
+
 button {
   font-size: 2rem;
   font-weight: bold;
@@ -67,7 +70,8 @@ button {
   background: #1d1d1d;
   color: #fff;
   margin: 2rem 0;
-  padding: 1rem;
+  padding: 1rem 0;
+  max-width: 28rem;
   border-radius: .5rem;
   cursor: pointer;
 }
@@ -77,16 +81,25 @@ button:hover, button:active {
 }
 
 .result {
-  background: #1d1d1d;
-  width: calc(100% - 1rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e7e7e7;
+  max-width: 28rem;
   height: 12rem;
+  padding: 1rem;
   margin-top: 1rem;
   border-radius: .5rem;
   box-shadow: 0 0 .5rem #000;
-  border: 1px solid #000;
+  color: #000;
+  font-size: 2rem;
 }
 
 @media (max-width: 390px) {
+  main {
+    align-items: baseline;
+  }
+
   .title {
     font-size: 3rem;
   }
