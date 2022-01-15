@@ -23,7 +23,7 @@ main {
   max-width: 40rem;
   padding: 2rem;
   margin: 2rem;
-  background: #68c8f5;
+  background: #218bff;
   border-radius: 1rem;
   box-shadow: 0 0 .5rem #000;
 }
@@ -84,7 +84,7 @@ button:hover, button:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #e7e7e7;
+  background: #eee;
   max-width: 28rem;
   height: 12rem;
   padding: 1rem;
@@ -93,6 +93,7 @@ button:hover, button:active {
   box-shadow: 0 0 .5rem #000;
   color: #000;
   font-size: 2rem;
+  font-weight: bold;
 }
 
 @media (max-width: 390px) {
